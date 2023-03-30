@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation1"
+    app:startDestination="@id/login">
+
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.photobombproject.signupndlogin.fragment.LoginFragment"
+        android:label="fragment_login2"
+        tools:layout="@layout/fragment_login2" >
+        <action
+            android:id="@+id/action_login_to_signup"
+            app:destination="@id/signup" />
+        <action
+            android:id="@+id/action_login_to_forgotPassword"
+            app:destination="@id/forgotPassword" />
+    </fragment>
+    <fragment
+        android:id="@+id/signup"
+        android:name="com.example.photobombproject.signupndlogin.fragment.Signup"
+        android:label="fragment_signup"
+        tools:layout="@layout/fragment_signup" >
+        <action
+            android:id="@+id/action_signup_to_OTPScreen"
+            app:destination="@id/OTPScreen" />
+        <action
+            android:id="@+id/action_signup_to_login"
+            app:destination="@id/login" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPassword"
+        android:name="com.example.photobombproject.signupndlogin.fragment.ForgotPassword"
+        android:label="fragment_forgot_password"
+        tools:layout="@layout/fragment_forgot_password" >
+        <action
+            android:id="@+id/action_forgotPassword_to_OTPScreen"
+            app:destination="@id/OTPScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/OTPScreen"
+        android:name="com.example.photobombproject.signupndlogin.fragment.OTPScreen"
+        android:label="fragment_o_t_p_screen"
+        tools:layout="@layout/fragment_o_t_p_screen" >
+        <action
+            android:id="@+id/action_OTPScreen_to_createPassword"
+            app:destination="@id/createPassword" />
+        <action
+            android:id="@+id/action_OTPScreen_to_signupCongrates"
+            app:destination="@id/signupCongrates" />
+    </fragment>
+    <fragment
+        android:id="@+id/createPassword"
+        android:name="com.example.photobombproject.signupndlogin.fragment.CreatePassword"
+        android:label="fragment_create_password"
+        tools:layout="@layout/fragment_create_password" >
+        <action
+            android:id="@+id/action_createPassword_to_login"
+            app:destination="@id/login" />
+        <action
+            android:id="@+id/action_createPassword_to_contrats_Screen"
+            app:destination="@id/contrats_Screen" />
+    </fragment>
+    <fragment
+        android:id="@+id/contrats_Screen"
+        android:name="com.example.photobombproject.signupndlogin.fragment.Contrats_Screen"
+        android:label="fragment_contrats__screen"
+        tools:layout="@layout/fragment_contrats__screen" >
+        <action
+            android:id="@+id/action_contrats_Screen_to_login"
+            app:destination="@id/login" />
+    </fragment>
+    <fragment
+        android:id="@+id/signupCongrates"
+        android:name="com.example.photobombproject.signupndlogin.fragment.SignupCongrates"
+        android:label="fragment_signup_congrates"
+        tools:layout="@layout/fragment_signup_congrates" />
+</navigation>

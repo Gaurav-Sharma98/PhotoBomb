@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home_icon"
+        />
+
+    <item android:id="@+id/create"
+        android:title="Create"
+        android:icon="@drawable/create_icon"
+        />
+
+    <item android:id="@+id/join"
+        android:title="Join"
+        android:icon="@drawable/join_icon"
+        />
+    <item android:id="@+id/pending"
+        android:icon="@drawable/pending_icon"
+        android:title="Pending"
+        />
+</menu>

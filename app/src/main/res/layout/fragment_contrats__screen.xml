@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".signupndlogin.fragment.Contrats_Screen"
+android:background="#1a1a1a"
+android:padding="30dp"
+android:weightSum="3"
+android:orientation="vertical">
+<ImageView
+    android:id="@+id/circle"
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:layout_weight="0.4"
+    android:layout_gravity="center_horizontal"
+    android:src="@drawable/check" />
+<TextView
+    android:id="@+id/login_text1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.2"
+    android:text="Congratulation"
+    android:layout_gravity="center_horizontal"
+    android:textColor="@color/white"
+    android:textSize="24sp"
+    android:textStyle="bold" />
+<TextView
+    android:id="@+id/login_text2"
+    android:layout_below="@id/login_text1"
+    android:layout_marginTop="5dp"
+    android:textAlignment="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.2"
+    android:text="you have successfully Create Your New Password"
+    android:textColor="#E2E2E2"
+    android:textSize="18sp" />
+<Button
+    android:id="@+id/goLogin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:background="@drawable/button"
+    android:text="Go Login"
+    android:textAllCaps="false"
+    android:textColor="@color/white"
+    tools:ignore="TextContrastCheck" />
+</LinearLayout>
+
+

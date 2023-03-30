@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+tools:context=".signupndlogin.fragment.OTPScreen"
+android:background="@color/black1"
+android:orientation="vertical">
+<TextView
+    android:padding="10dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:id="@+id/login_text1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/otp_verification"
+    android:layout_gravity="left"
+    android:textColor="@color/white"
+    android:textSize="28sp"
+    android:textStyle="bold" />
+
+<TextView
+    android:padding="15dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:id="@+id/login_text2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/please_type_the_verification_code_sent_to_your_registered_mobile"
+    android:textColor="@color/text"
+    android:textSize="20sp" />
+
+    <com.chaos.view.PinView
+        style="@style/PinWidget.PinView"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:cursorVisible="true"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:itemHeight="55dp"
+        app:itemRadius="20dp"
+        app:itemSpacing="13dp"
+        app:itemWidth="55dp"
+        app:lineColor="@color/gray"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+<Button
+    android:id="@+id/verify_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:background="@drawable/button"
+    android:text="@string/verify_now"
+    android:textAllCaps="false"
+    android:textColor="@color/white"
+    tools:ignore="TextContrastCheck" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/didn_t_receive_otp"
+    android:textColor="@color/gray"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center"/>
+<TextView
+    android:id="@+id/resendotp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/resend_otp"
+    android:textColor="@color/white"
+    android:layout_gravity="center"/>
+</LinearLayout>
+
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">PhotoBombProject</string>
+    <string name="next">Next</string>
+    <string name="photogallery">Photogallery</string>
+    <string name="photobombing_is_the_act_of_purposely_putting_oneself_into_the_view_of_a_photograph">Photobombing is the act of purposely \n putting oneself into the view of a \n photograph</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="nav_close" />
+    <string name="nav_open" />
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="signin_title">Let\'s Sign You In</string>
+    <string name="signin_msg">Welcome back, you\'ve \n been missed !</string>
+    <string name="mobile">Mobile</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forgot Password</string>
+    <string name="signin">Sign In</string>
+    <string name="continue_with">-----Or Continue With-----</string>
+    <string name="signup">Don\'t have an account ? Sign Up</string>
+    <string name="signup_title">Let\'s Sign Up !</string>
+    <string name="signup_msg">Enter Your Details here !</string>
+    <string name="name">Name</string>
+    <string name="email_id">Email ID</string>
+    <string name="signup_term_and_conditions">By creating an account, you agree to our </string>
+    <string name="signup_term_and_conditions_link"><font color='#51afff'>Term &amp; Conditions</font></string>
+    <string name="signup_link">Already have an account ?  Sign In</string>
+    <string name="sign_up_btn_txt">Sign Up</string>
+    <string name="check_internet_connection">No Internet Connection</string>
+    <string name="restart">Restart</string>
+    <string name="by_creating_an_account_you_agree_to_our">By creating an account, you agree to our</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="enter_your_registered_mobile_number_to_reset_password">Enter your registered mobile number to \n reset password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="please_type_the_verification_code_sent_to_your_registered_mobile">Please type the verification \n code sent to your registered \n mobile number</string>
+    <string name="verify_now">Verify Now</string>
+    <string name="didn_t_receive_otp">Didn\'t recive OTP ?</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="set_new_password">Set New Password</string>
+    <string name="create_strong_and_secured_new_password">Create strong and secured new password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="save_password">Save Password</string>
+    <string name="congratulation">Congratulations</string>
+    <string name="you_have_successfully_become_photobomb_user">you have successfully become Photobomb user</string>
+    <string name="done">Done</string>
+    <string name="create_a_group">Create a group</string>
+    <string name="no_group_created_yet">No Group Created Yet!</string>
+    <string name="create_password">Create Password</string>
+    <string name="Create_Group">Create Group</string>
+    <string name="add_group_profile_pic">Add group profile pic</string>
+    <string name="group_name">Group Name</string>
+    <string name="group_expiry">Group Expiry</string>
+    <string name="user_access">User Access</string>
+    <string name="group_start">Group Start</string>
+    <string name="preview_image_before_upload">Preview image before upload</string>
+
+</resources>
